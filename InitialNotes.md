@@ -127,4 +127,11 @@ $ git reset --hard <-commit_hash->
 
 Fork
 - A fork is a new repositiry that shares code and visibility settings with the original "upstream" repository
-- For is a rough copy
+- Fork is a rough copy
+
+For SSH keys <br />
+$ ssh-keygen -t rsa -b 4096 -c "example@email.com" <br />
+setup the ssh/gpg keys <br />
+adding your ssh key to the ssh-agent <br />
+$ vim ~/.ssh/id_rsa <br />
+<br />
